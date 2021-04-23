@@ -1683,6 +1683,24 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 4787b4e167802404f83556aca18a02d3, type: 2}
+    - target: {fileID: 5866666021909216657, guid: f35290541740a476497dc4ba2be5967f, type: 3}
+      propertyPath: m_UpdateMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: f35290541740a476497dc4ba2be5967f, type: 3}
+      propertyPath: m_CullingMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: f35290541740a476497dc4ba2be5967f, type: 3}
+      propertyPath: m_WarningMessage
+      value: "\nBinding warning: Some generic clip(s) animate transforms that are
+        already bound by a Humanoid avatar. These transforms can only be changed
+        by Humanoid clips.\n\tTransform 'mixamorig:LeftFoot'\n\tTransform 'mixamorig:LeftHandThumb2'\n\tTransform
+        'mixamorig:LeftHandIndex1'\n\tTransform 'mixamorig:LeftHandPinky2'\n\tTransform
+        'mixamorig:RightHandRing2'\n\tTransform 'mixamorig:Spine1'\n\tTransform 'mixamorig:LeftToeBase'\n\tTransform
+        'mixamorig:LeftHandThumb3'\n\tTransform 'mixamorig:RightArm'\n\tTransform
+        'mixamorig:LeftLeg'\n\tand more ..."
+      objectReference: {fileID: 0}
     - target: {fileID: 6000407479487422213, guid: f35290541740a476497dc4ba2be5967f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.000000017462298
@@ -1978,7 +1996,7 @@ PlayableDirector:
   serializedVersion: 3
   m_PlayableAsset: {fileID: 11400000, guid: 65c71a387e0d54aa09a313025ae831ad, type: 2}
   m_InitialState: 1
-  m_WrapMode: 2
+  m_WrapMode: 1
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
   m_SceneBindings:
@@ -5635,7 +5653,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4777889342677522, guid: 8f6248c4d78145a4087136562ed6ed11, type: 3}
       propertyPath: m_LocalPosition.z
+<<<<<<< Updated upstream
       value: -166.67146
+=======
+      value: 45.52
+>>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 4777889342677522, guid: 8f6248c4d78145a4087136562ed6ed11, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5871,6 +5893,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1685435886}
   m_Enabled: 1
+<<<<<<< Updated upstream
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -5909,6 +5932,31 @@ MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
+=======
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: 97844ab811c464311bd6e8a69b4086bb, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 0
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings: []
+  m_ExposedReferences:
+    m_References: []
+--- !u!4 &1358377453 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400114, guid: 16dda1a5640c34a4891e82e1f9853c27, type: 3}
+  m_PrefabInstance: {fileID: 941164981}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1594965331 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400006, guid: c233d807c08ece142bb4c75cebaf09c6, type: 3}
+  m_PrefabInstance: {fileID: 321016484}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1645772838 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400006, guid: c233d807c08ece142bb4c75cebaf09c6, type: 3}
+  m_PrefabInstance: {fileID: 1705499879}
+>>>>>>> Stashed changes
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1685435886}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
