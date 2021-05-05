@@ -9,5 +9,5 @@ EditorBuildSettings:
     path: Assets/Scenes/Track Scene.unity
     guid: fc9b361e9d4b04473b418a23fdd8463b
   m_configObjects:
-    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: f6d7ead7b6c3ac347ba0db1b1ba7f588, type: 2}
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: f24ef6611af444bf790f8277bcdab0ef, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 41b1d67ce578f5b489d6bd905ad90545, type: 2}
